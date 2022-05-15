@@ -35,33 +35,13 @@ body {
 }
   
 .slide {
-	width: 40vw;
-	height: 50vh;
+	width: 100%;
 	flex-shrink: 0;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: contain;
 	transition: 1s;
 }
 
-.slide-1 {
-	background-image: url(./assets/img/image-1.jpg);
-}
-
-.slide-2 {
-	background-image: url(./assets/img/image-2.jpg);
-}
-
-.slide-3 {
-	background-image: url(./assets/img/image-3.jpg);
-}
-
-.slide-4 {
-	background-image: url(./assets/img/image-4.jpg);
-}
-
-.slide-5 {
-	background-image: url(./assets/img/image-5.jpg);
+.image {
+	width: 100%;
 }
   
 .content-navigation-container {
@@ -72,7 +52,7 @@ body {
 }
   
 .content {
-	width: 60%;
+	width: 25vw;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
@@ -136,16 +116,16 @@ label:active .navigation-btn {
 	margin-left: 0;
 }  
 #radio-2:checked ~ .slides-container .slide-1 {
-	margin-left: -40vw;
+	margin-left: -100%;
 }  
 #radio-3:checked ~ .slides-container .slide-1 {
-	margin-left: -80vw;
+	margin-left: -200%;
 }  
 #radio-4:checked ~ .slides-container .slide-1 {
-	margin-left: -120vw;
+	margin-left: -300%;
 }  
 #radio-5:checked ~ .slides-container .slide-1 {
-	margin-left: -160vw;
+	margin-left: -400%;
 }
 
 /* change text */
