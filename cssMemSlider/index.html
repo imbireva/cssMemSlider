@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Mem Slider</title>
+    <link rel="icon" type="image/x-icon" href="./assets/svg/star.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slider">
+        <input type="radio" name="radio-btn" id="radio-1" checked>
+        <input type="radio" name="radio-btn" id="radio-2">
+        <input type="radio" name="radio-btn" id="radio-3">
+        <input type="radio" name="radio-btn" id="radio-4">
+        <input type="radio" name="radio-btn" id="radio-5">
+
+        <div class="slides-container">
+            <div class="slide-1 slide">
+                <img src="./assets/img/image-1.jpg" alt="image1" class="image">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/image-2.jpg" alt="image2" class="image">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/image-3.jpg" alt="image3" class="image">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/image-4.jpg" alt="image4" class="image">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/image-5.jpg" alt="image5" class="image">
+            </div>
+        </div>
+
+        <div class="content-navigation-container">
+            <div class="content">
+                <p class="text-1 text">Ряд житейских зарисовок</p>
+                <p class="text">Когда к тебе без предупреждения зашёл гость</p>
+                <p class="text">Когда тебе нужно выслать работодателю своё нормальное фото</p>
+                <p class="text">Когда на улице спросили, как пройти к супермаркету</p>
+                <p class="text">Когда ты собрался вынести мусор</p>
+            </div>
+
+            <div class="navigation">
+                <label for="radio-1">
+                    <div class="navigation-btn navigation-btn-1"></div>
+                </label>
+
+                <label for="radio-2">
+                    <div class="navigation-btn navigation-btn-2"></div>
+                </label>
+
+                <label for="radio-3">
+                    <div class="navigation-btn navigation-btn-3"></div>
+                </label>
+
+                <label for="radio-4">
+                    <div class="navigation-btn navigation-btn-4"></div>
+                </label>
+
+                <label for="radio-5">
+                    <div class="navigation-btn navigation-btn-5"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
